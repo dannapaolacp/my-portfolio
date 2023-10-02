@@ -78,7 +78,7 @@ html {
 }
 
 .start .banner-content{
-  padding: 20px;
+  padding:20px;
   background-color: #1e2326;
   max-width: 350px;
   margin: auto;
@@ -195,7 +195,7 @@ html {
 }
 
 .aboutme .row .column .interests-content .interests {
-  width: 100px;
+  width: 140px;
   height: 100px;
   background-color: #252A2E;
   border-radius: 10px;
@@ -214,6 +214,10 @@ html {
 .aboutme .row .column .interests-content .interests i {
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+.aboutme a{
+  text-decoration: none;
 }
 
 .aboutme button {
@@ -239,6 +243,8 @@ html {
   background-color: #793cfd;
   z-index: -1;
   transition: 1s;
+  text-decoration: none;
+  outline: none;
 }
 
 .aboutme button:hover .overlay {
