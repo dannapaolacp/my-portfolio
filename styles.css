@@ -251,3 +251,166 @@ html {
   width: 100%;
   align-items: center;
 }
+
+.skills{
+  background-color: #252A2E;
+  color: #fff;
+  padding: 50px 20px;
+  height: 95vh;
+}
+
+.skills .section-content{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.skills h2{
+  font-size: 48px;
+  font-family: 'Righteous';
+  text-align: center;
+  padding: 20px 0;
+}
+
+.skills .row{
+  display: flex;
+}
+
+.skills .row .column{
+  width: 50%;
+  padding: 0 20px;
+}
+.skills .row .column h3 {
+  font-size: 28px;
+  font-family: 'Righteous';
+  margin-bottom: 25px;
+}
+
+.skills .skill>span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.skills .row .column .content-skills{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills .row .column .content-skills .skill{
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.skills .row .column .content-skills .skill:hover{
+  background-color: #793cfd;
+}
+
+.skills .row .column .content-skills .skill i{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.skills .skill .skill-bar {
+  height: 8px;
+  width: 80%;
+  background-color: #131517;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.skills .skill .skill-bar span {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #1CB698;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  top: -17px;
+  right: -15px;
+  font-size: 14px;
+}
+
+/* Estas clases se agregaran dinamicamente mediante javascript
+.skills .skill .javascript {
+  width: 0%;
+  animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+
+.skills .skill .htmlcss {
+  width: 0%;
+  animation: 2s htmlcss forwards;
+}
+
+@keyframes htmlcss {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 89%;
+  }
+}
+
+.skills .skill .photoshop {
+  width: 0%;
+  animation: 2s photoshop forwards;
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+
+.skills .skill .wordpress {
+  width: 0%;
+  animation: 2s wordpress forwards;
+}
+
+@keyframes wordpress {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 81%;
+  }
+}
+
+.skills .skill .drupal {
+  width: 0%;
+  animation: 2s drupal forwards;
+}
+
+@keyframes drupal {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 55%;
+  }
+} */
