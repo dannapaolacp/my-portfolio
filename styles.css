@@ -285,7 +285,7 @@ html {
   margin-bottom: 25px;
 }
 
-.skills .skill>span {
+.skills .skill span {
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
@@ -297,7 +297,7 @@ html {
 }
 
 .skills .row .column .content-skills .skill{
-    width: 100px;
+    width: 110px;
     height: 100px;
     background-color: #252A2E;
     border-radius: 10px;
